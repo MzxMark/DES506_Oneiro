@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Oneiro\Oneiro\Oneiro_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Oneiro\Oneiro\Oneiro_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Oneiro\Oneiro\Oneiro_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Oneiro\Oneiro\Oneiro_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2878262188" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank_1</ObjectPath>
+			<ShortName>Soundbank_1</ShortName>
+			<Path>Soundbank_1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4011678951" Name="Mushroom_grow" ObjectPath="\Events\Default Work Unit\Mushroom_grow" DurationType="OneShot" DurationMin="3.603401" DurationMax="3.603401"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="648147293" Language="SFX">
+					<ShortName>Mushroom grow.wav</ShortName>
+					<Path>SFX\Mushroom grow_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
