@@ -2813,7 +2813,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxDistance: 20
+  maxDistance: 50
 --- !u!114 &963194233
 MonoBehaviour:
   m_ObjectHideFlags: 0
