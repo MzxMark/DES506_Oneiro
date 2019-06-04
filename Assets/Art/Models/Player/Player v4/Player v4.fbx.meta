@@ -63,6 +63,15 @@ ModelImporter:
   - first:
       74: 5890746648111854496
     second: PushingIdle
+  - first:
+      74: -1780113837677938350
+    second: Pushing Idle
+  - first:
+      74: -5235939474259452142
+    second: Turning Position
+  - first:
+      74: -3616186796410819229
+    second: Turning
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -440,9 +449,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
+      name: Pushing Idle
+      takeName: Armature|Action
+      internalID: -1780113837677938350
+      firstFrame: 740
+      lastFrame: 740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
       name: Turning Position
       takeName: Armature|Action
-      internalID: 9022928347642949593
+      internalID: -5235939474259452142
       firstFrame: 782
       lastFrame: 801
       wrapMode: 0
@@ -471,7 +509,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Turning
       takeName: Armature|Action
-      internalID: -8465530501526218559
+      internalID: -3616186796410819229
       firstFrame: 801
       lastFrame: 861
       wrapMode: 0

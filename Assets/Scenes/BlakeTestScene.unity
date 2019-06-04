@@ -2565,6 +2565,8 @@ GameObject:
   - component: {fileID: 963194229}
   - component: {fileID: 963194231}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194233}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2772,6 +2774,63 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c409879000295c4cafe80d7b674e9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  object1: {fileID: 1611404847}
+  object2: {fileID: 1573050253}
+  profile: {fileID: 11400000, guid: 9014a515c25a7074db4479893a6f99f3, type: 2}
+  blackOutCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxDistance: 20
+--- !u!114 &963194233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 9014a515c25a7074db4479893a6f99f3, type: 2}
 --- !u!1001 &984836342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5160,6 +5219,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494330308}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1573050253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5319843833683152462, guid: 90be2da82951861499222bc78e16b97c,
+    type: 3}
+  m_PrefabInstance: {fileID: 984836342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1611404841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6002,7 +6067,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 7bb7ab05401ee6f4dbfa579a1af80643,
         type: 3}
       propertyPath: m_Name
-      value: Player_Prototype_Animation
+      value: Player v4
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 7bb7ab05401ee6f4dbfa579a1af80643,
         type: 3}
